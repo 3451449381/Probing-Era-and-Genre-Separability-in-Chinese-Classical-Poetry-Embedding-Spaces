@@ -184,13 +184,14 @@ classifier/train_classifier.ipynb
 
 Below are the visualization results generated from the embedding space:
 
-### **t-SNE Visualization**
+### **PCA Visualization**
 ![Visualization 1](vis1.png)
 
-### **UMAP Visualization**
+
+### **t-SNE Visualization**
 ![Visualization 2](vis2.png)
 
-### **PCA Visualization**
+### **UMAP Visualization**
 ![Visualization 3](vis3.png)
 
 
