@@ -33,14 +33,18 @@ No fine-tuning of large language models is required.
 
 /embedding/            # Embedding generation code
     └── Embedding Model_BERT_CCPoem_v1.py   # Custom BERT embedding extractor
-    └── output.npy              # Transform .csv to .npy
+    └── output.npy                          # Transform .csv to .npy
 
 /classifier/           # Classifier training notebooks/scripts
     └── train_classifier.ipynb              # Training for era/genre classifiers
 
 /visualization/        # Dimensionality reduction and plotting (PCA, t-SNE, UMAP)
     └── train_classifier.ipynb              # Visualize
+    └── vis1.png                            # PCA Visualization
+    └── vis2.png                            # UMAP Visualization
+    └── vis3.png                            # PCA Visualization
 
+Requirement.txt        # Coding environment
 README.md              # Project documentation (this file)
 ```
 
