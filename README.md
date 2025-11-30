@@ -180,10 +180,19 @@ Open:
 classifier/train_classifier.ipynb
 ```
 
-### 5. Visualize Embeddings
-Use scripts in `train_classifier.ipynb`
+### 5. Visualize Results
 
----
+Below are the visualization results generated from the embedding space:
+
+### **t-SNE Visualization**
+![Visualization 1](vis1.png)
+
+### **UMAP Visualization**
+![Visualization 2](vis2.png)
+
+### **PCA Visualization**
+![Visualization 3](vis3.png)
+
 
 ## 📬 9. Citation
 
