@@ -29,16 +29,18 @@ No fine-tuning of large language models is required.
 
 ```
 /data/                 # Scripts or raw data for preprocessing (not included by default)
+    └── 诗歌数据.csv
 
 /embedding/            # Embedding generation code
     └── Embedding Model_BERT_CCPoem_v1.py   # Custom BERT embedding extractor
+    └── output.npy              # Transform .csv to .npy
 
 /classifier/           # Classifier training notebooks/scripts
     └── train_classifier.ipynb              # Training for era/genre classifiers
 
 /visualization/        # Dimensionality reduction and plotting (PCA, t-SNE, UMAP)
+    └── train_classifier.ipynb              # Visualize
 
-main.ipynb             # High-level pipeline integrating embedding, classification, visualization
 README.md              # Project documentation (this file)
 ```
 
@@ -179,7 +181,7 @@ classifier/train_classifier.ipynb
 ```
 
 ### 5. Visualize Embeddings
-Use scripts in `/visualization/` or `main.ipynb`.
+Use scripts in `train_classifier.ipynb`
 
 ---
 
